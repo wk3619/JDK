@@ -44,7 +44,7 @@ package java.util;
  * @since   JDK1.0
  */
 public
-class Vector implements Cloneable, java.io.Serializable {
+	class Vector implements Cloneable, java.io.Serializable {
     /**
      * The array buffer into which the components of the vector are 
      * stored. The capacity of the vector is the length of this array buffer.
@@ -70,7 +70,7 @@ class Vector implements Cloneable, java.io.Serializable {
      */
     protected int capacityIncrement;
 
-    /** use serialVersionUID from JDK 1.0.2 for interoperability */
+		/** use serialVersionUID from JDK 1.0.2 for interoperability */
     private static final long serialVersionUID = -2767605614048989439L;
 
     /**
